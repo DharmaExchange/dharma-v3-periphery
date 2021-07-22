@@ -37,7 +37,7 @@ BSC addresses:
 | Multicall2                         | `0xF7bbE3359443565954b0daC61756931581F3699C` | https://bscscan.com/address/0xF7bbE3359443565954b0daC61756931581F3699C#code                                                   |
 | ProxyAdmin                         | `0xE317fA8310608b9aCBDC5d9fe8BA3f29dE7665De` | https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.1-solc-0.7-2/contracts/proxy/ProxyAdmin.sol                  |
 | TickLens                           | `0xe1d1fa757f44fA8dbE8964dda9BBD8F7C4BFcF09` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/lens/TickLens.sol                                       |
-| Quoter                             | `0xBd85555F80e3de0743ACe421b46eC3A8C97b7bD2` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/lens/Quoter.sol                                         |
+| Quoter                             | `0x07124c7eda34cACAa94e6D0bbF4994E1E173383a` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/lens/Quoter.sol                                         |
 | SwapRouter                         | `0x809fE6B40242Ab006E34015ABce2561d36D82C57` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/SwapRouter.sol                                          |
 | NFTDescriptor                      | `0xD5CbD3e11C077617459957d7B3ad7d3fC0908EF7` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/libraries/NFTDescriptor.sol                             |
 | NonfungibleTokenPositionDescriptor | `0x3e318B2c0d61714e229695dF325028Ad3eECE006` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/NonfungibleTokenPositionDescriptor.sol                  |
