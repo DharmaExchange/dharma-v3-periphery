@@ -3,6 +3,7 @@ import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-etherscan'
 import 'hardhat-watcher'
+import 'uniswap-v3-deploy-plugin'
 
 const LOW_OPTIMIZER_COMPILER_SETTINGS = {
   version: '0.7.6',
@@ -44,28 +45,17 @@ const DEFAULT_COMPILER_SETTINGS = {
 }
 
 export default {
+  defaultNetwork: 'bsc',
   networks: {
+    bsc: {
+      url: 'https://bsc-dataseed.binance.org/',
+      chainId: 56,
+      gasPrice: 5_000_000_000,
+      accounts: [process.env.DHARMA_DEPLOY_KEY],
+      // accounts: { mnemonic: mnemonic },
+    },
     hardhat: {
       allowUnlimitedContractSize: false,
-    },
-    mainnet: {
-      url: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
-    },
-    ropsten: {
-      url: `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
-    },
-    rinkeby: {
-      url: `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`,
-    },
-    goerli: {
-      url: `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
-    },
-    kovan: {
-      url: `https://kovan.infura.io/v3/${process.env.INFURA_API_KEY}`,
-    },
-    arbitrum: {
-      url: `http://localhost:8547`,
-      gas: 8000000,
     },
   },
   etherscan: {
