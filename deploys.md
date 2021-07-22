@@ -11,6 +11,28 @@ These addresses are final and were deployed from these npm package versions:
 - `@uniswap/v3-core`: [`1.0.0`](https://github.com/Uniswap/uniswap-v3-core/tree/v1.0.0)
 - `@uniswap/v3-periphery`: [`1.0.0`](https://github.com/Uniswap/uniswap-v3-periphery/tree/v1.0.0)
 
+BSC addresses:
+
+```
+┌──────────────────────┬────────────────────────────────────────────┐
+│ Contract             │ Address                                    │
+├──────────────────────┼────────────────────────────────────────────┤
+│ weth9                │ 0x52E57CF95D12298f79eD2862c7213e9Ee678754B │
+├──────────────────────┼────────────────────────────────────────────┤
+│ factory              │ 0x83944C281F946cCf4D2EA0f3eAD078C874F310AC │
+├──────────────────────┼────────────────────────────────────────────┤
+│ router               │ 0x5E99998D3569f309E0d64bF10D5426068d34F757 │
+├──────────────────────┼────────────────────────────────────────────┤
+│ nftDescriptorLibrary │ 0x89Bc8d30d4d28834B600598EBa50EDfeB9dcA25D │
+├──────────────────────┼────────────────────────────────────────────┤
+│ positionDescriptor   │ 0x06E8A4D5f0b9cF4142bd810d4cC0a99F8674eDf9 │
+├──────────────────────┼────────────────────────────────────────────┤
+│ positionManager      │ 0x7A162977fc4dF1E7961d5E64BEeD933feDf84dd2 │
+└──────────────────────┴────────────────────────────────────────────┘
+```
+
+ETHEREUM addresses:
+
 | Contract                           | Address                                      | Source Code                                                                                                                   |
 | ---------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | UniswapV3Factory                   | `0x1F98431c8aD98523631AE4a59f267346ea31F984` | https://github.com/Uniswap/uniswap-v3-core/blob/v1.0.0/contracts/UniswapV3Factory.sol                                         |
