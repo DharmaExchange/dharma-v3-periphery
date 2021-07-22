@@ -31,6 +31,20 @@ BSC addresses:
 └──────────────────────┴────────────────────────────────────────────┘
 ```
 
+| Contract                           | Address                                      | Source Code                                                                                                                   |
+| ---------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| UniswapV3Factory                   | `0x83944C281F946cCf4D2EA0f3eAD078C874F310AC` | https://github.com/Uniswap/uniswap-v3-core/blob/v1.0.0/contracts/UniswapV3Factory.sol                                         |
+| Multicall2                         | `0xF7bbE3359443565954b0daC61756931581F3699C` | https://bscscan.com/address/0xF7bbE3359443565954b0daC61756931581F3699C#code                                                   |
+| ProxyAdmin                         | ``                                           | https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.1-solc-0.7-2/contracts/proxy/ProxyAdmin.sol                  |
+| TickLens                           | ``                                           | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/lens/TickLens.sol                                       |
+| Quoter                             | ``                                           | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/lens/Quoter.sol                                         |
+| SwapRouter                         | `0x5E99998D3569f309E0d64bF10D5426068d34F757` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/SwapRouter.sol                                          |
+| NFTDescriptor                      | `0x89Bc8d30d4d28834B600598EBa50EDfeB9dcA25D` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/libraries/NFTDescriptor.sol                             |
+| NonfungibleTokenPositionDescriptor | `0x06E8A4D5f0b9cF4142bd810d4cC0a99F8674eDf9` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/NonfungibleTokenPositionDescriptor.sol                  |
+| TransparentUpgradeableProxy        | ``                                           | https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.1-solc-0.7-2/contracts/proxy/TransparentUpgradeableProxy.sol |
+| NonfungiblePositionManager         | `0x7A162977fc4dF1E7961d5E64BEeD933feDf84dd2` | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/NonfungiblePositionManager.sol                          |
+| V3Migrator                         | ``                                           | https://github.com/Uniswap/uniswap-v3-periphery/blob/v1.0.0/contracts/V3Migrator.sol                                          |
+
 ETHEREUM addresses:
 
 | Contract                           | Address                                      | Source Code                                                                                                                   |
